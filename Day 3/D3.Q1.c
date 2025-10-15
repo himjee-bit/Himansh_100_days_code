@@ -2,7 +2,8 @@
 #include <stdio.h>
 int main() 
 {
-
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse: BSc. CS. \nBatch: 1");
+	printf("\n-----------------\n");
     int n, m, t, b, l, r, i, min;
     printf("Enter the number upto whose you want the pattern: ");
     scanf("%d", &n);
@@ -21,3 +22,4 @@ int main()
     }
     return 0;
 }
+
