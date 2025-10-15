@@ -2,6 +2,8 @@
 #include<stdio.h>
 int main()
 {
+	printf("Himansh Jeengar\nSAP ID: 590025460\nCourse: BSc. CS. \nBatch: 1");
+	printf("\n-----------------\n");
 	double c, f;
 	printf("Enter the temprature in celsius");
 	scanf("%lf", &c);
@@ -9,3 +11,4 @@ int main()
 	printf("The entered temprature in fahrenheit is: %lf", f);
 	return 0;
 }
+
