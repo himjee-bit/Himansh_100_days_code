@@ -2,6 +2,8 @@
  #include<stdio.h>
 int main()
 {
+	printf("Himansh Jeengar\nSAP ID: 590025460\nCourse: BSc. CS. \nBatch: 1");
+	printf("\n-----------------\n");
 	int per, ar, a,b;
 	printf("Enter width and length of the rectangle:");
 	scanf("%d%d", &a, &b);
@@ -10,3 +12,4 @@ int main()
 	printf("The perimeter and area of the given rectangle is %d %d", per, ar);
 	return 0;
 }
+
