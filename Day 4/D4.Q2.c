@@ -2,6 +2,8 @@
 #include<stdio.h>
 int main()
 {
+	printf("Himansh Jeengar\nSAP ID: 590025460\nCourse: BSc. CS. \nBatch: 1");
+	printf("\n-----------------\n");
 	int a;
 	printf("Enter the number to be checked:"); scanf("%d", &a);
 	if((a%2)==0)
@@ -14,3 +16,4 @@ int main()
 	}
 	return 0;
 }
+
