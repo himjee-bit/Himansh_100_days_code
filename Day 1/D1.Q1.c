@@ -2,6 +2,8 @@
 #include<stdio.h>
 int main()
 {
+	printf("Himansh Jeengar\nSAP ID: 590025460\nCourse: BSc. CS. \nBatch: 1");
+	printf("\n-----------------\n");
     printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
 	printf("\n-------------------------------------------------------\n");
     int a, b;
@@ -9,3 +11,4 @@ int main()
     printf("\nSum of the given numbers is: %d", a+b);
     return 0;
 }
+
