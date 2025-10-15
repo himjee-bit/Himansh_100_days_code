@@ -2,6 +2,8 @@
 #include<stdio.h>
 int main()
 {
+	printf("Himansh Jeengar\nSAP ID: 590025460\nCourse: BSc. CS. \nBatch: 1");
+	printf("\n-----------------\n");
 	int a,b,sum,prod,sub; float div; 
 	printf("Enter the number a and b");
 	scanf("%d%d",&a, &b);
@@ -12,3 +14,4 @@ int main()
 	printf("The sum of a and b is %d \nThe difference betweet a and b is %d \nThe product of a and b is %d \nThe answer for a/b is %.5f", sum, sub, prod, div);
 	return 0;
 }
+
