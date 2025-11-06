@@ -1,0 +1,22 @@
+/* 100 Days Code; Day 51: Code 1 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    while(a != b){
+        if(a > b)
+            a -= b;
+        else
+            b -= a;
+    }
+
+    printf("GCD = %d", a);
+    return 0;
+}
+
