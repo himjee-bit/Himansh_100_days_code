@@ -1,0 +1,22 @@
+/* 100 Days Code; Day 58: Code 2 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int n, sum = 0;
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    for(int i = 1; i < n; i++)
+        if(n % i == 0)
+            sum += i;
+
+    if(sum == n)
+        printf("%d is a Perfect number", n);
+    else
+        printf("%d is not a Perfect number", n);
+
+    return 0;
+}
