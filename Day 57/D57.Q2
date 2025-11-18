@@ -1,0 +1,21 @@
+/* 100 Days Code; Day 57: Code 2 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int n, a = 0, b = 1, c;
+    printf("Enter how many terms: ");
+    scanf("%d", &n);
+
+    printf("Fibonacci: ");
+    for(int i = 1; i <= n; i++)
+    {
+        printf("%d ", a);
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return 0;
+}
