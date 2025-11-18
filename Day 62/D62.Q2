@@ -1,0 +1,23 @@
+/* 100 Days Code; Day 62: Code 2 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int n, a[100], pos = 0, neg = 0, zero = 0;
+    printf("Enter size: ");
+    scanf("%d", &n);
+
+    printf("Enter numbers: ");
+    for(int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+        if(a[i] > 0) pos++;
+        else if(a[i] < 0) neg++;
+        else zero++;
+    }
+
+    printf("Positive = %d, Negative = %d, Zero = %d", pos, neg, zero);
+    return 0;
+}
