@@ -1,0 +1,30 @@
+/* 100 Days Code; Day 68 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int n, a[100], largest, second;
+    printf("Enter size: ");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++)
+        scanf("%d", &a[i]);
+
+    largest = second = -99999;
+
+    for(int i = 0; i < n; i++)
+    {
+        if(a[i] > largest)
+        {
+            second = largest;
+            largest = a[i];
+        }
+        else if(a[i] > second && a[i] < largest)
+            second = a[i];
+    }
+
+    printf("Second largest = %d", second);
+    return 0;
+}
