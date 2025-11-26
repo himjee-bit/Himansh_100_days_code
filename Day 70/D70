@@ -1,0 +1,28 @@
+/* 100 Days Code; Day 70 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int a[10][10], r, c, i, j;
+
+    printf("Enter rows & columns: ");
+    scanf("%d %d", &r, &c);
+
+    printf("Enter matrix elements:\n");
+    for(i = 0; i < r; i++)
+        for(j = 0; j < c; j++)
+            scanf("%d", &a[i][j]);
+
+    for(i = 0; i < r; i++)
+    {
+        int sum = 0;
+        for(j = 0; j < c; j++)
+            sum += a[i][j];
+
+        printf("Row %d sum = %d\n", i+1, sum);
+    }
+
+    return 0;
+}
