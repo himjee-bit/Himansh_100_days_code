@@ -1,0 +1,26 @@
+/* 100 Days Code; Day 69 */
+#include<stdio.h>
+int main()
+{
+    printf("Himansh Jeengar\nSAP ID: 590025460\nCourse- BSc CS\nBatch-1");
+    printf("\n-----------------\n");
+
+    int arr[50], n, i, even = 0, odd = 0;
+
+    printf("Enter size of array: ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements: ", n);
+    for(i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
+
+    for(i = 0; i < n; i++)
+    {
+        if(arr[i] % 2 == 0) even++;
+        else odd++;
+    }
+
+    printf("Even count = %d\nOdd count = %d", even, odd);
+
+    return 0;
+}
